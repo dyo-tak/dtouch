@@ -1,6 +1,6 @@
 [project]
 name = "dtouch"
-version = "0.1.1c"
+version = "0.1.1d"
 description = "Add your description here"
 readme = "README.md"
 authors = [
@@ -18,4 +18,4 @@ requires = ["uv_build>=0.8.16,<0.9.0"]
 build-backend = "uv_build"
 
 [project.scripts]
-dtouch = "dtouch.main:main"
+dtouch = "dtouch.__main__:main"
