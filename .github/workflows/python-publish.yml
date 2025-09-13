@@ -19,7 +19,7 @@ jobs:
       - name: Set up uv
         uses: astral-sh/setup-uv@v1
         with:
-          uv-version: latest
+          version: 0.8.16
 
       - name: Build release distributions
         run: uv build -o dist/
