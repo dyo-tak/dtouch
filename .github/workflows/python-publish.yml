@@ -19,11 +19,7 @@ jobs:
       - name: Set up uv
         uses: astral-sh/setup-uv@v1
         with:
-<<<<<<< HEAD
-          python-version: "3.12"
-=======
           version: 0.8.16
->>>>>>> main
 
       - name: Build release distributions
         run: uv build -o dist/
