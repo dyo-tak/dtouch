@@ -1,6 +1,6 @@
 [project]
 name = "dtouch"
-version = "0.1.1"
+version = "0.1.1.dev1"
 description = "Add your description here"
 readme = "README.md"
 authors = [
